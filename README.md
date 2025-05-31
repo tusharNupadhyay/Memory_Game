@@ -1,16 +1,38 @@
-<<<<<<< HEAD
-# Memory_Game
-=======
-# React + Vite
+# 🧠 Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and responsive memory game built with **React** and **Vite**, featuring characters from the **Rick and Morty** universe.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo  
+👉 [Play it here](https://your-username.github.io/Memory_Game/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎮 Gameplay
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> c432001 (finished)
+The goal is simple: **click each card only once**.  
+Each time you click a card, the board is shuffled.  
+If you click the same card twice — **game over!**  
+Try to get the highest score by remembering your previous choices.
+
+---
+
+## ✨ Features
+
+- 🎴 Randomly fetched character cards from the [Rick and Morty API](https://rickandmortyapi.com/)
+- 🔁 Cards reshuffle after every click
+- 🧠 Score tracking with **current score** and **best score**
+- ❌ Game over state when a card is clicked twice
+- ✅ Victory message when all unique cards are successfully clicked
+- 🔄 Restart button to reset and play again
+- 💡 Smooth animations and responsive grid layout
+
+---
+
+## 🧪 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Rick and Morty API](https://rickandmortyapi.com/)
+- CSS Flexbox & Grid
+
+---

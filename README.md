@@ -3,7 +3,7 @@
 A fun and responsive memory game built with **React** and **Vite**, featuring characters from the **Rick and Morty** universe.
 
 ### 🔗 Live Demo  
-👉 [Play it here](https://your-username.github.io/Memory_Game/)
+👉 [Play it here](https://tusharNupadhyay.github.io/Memory_Game/)
 
 ---
 
